@@ -20,6 +20,13 @@ gem 'jbuilder', '~> 2.7'
 # Use Active Model has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
+# Provides a better error page for Rails and other Rack apps.
+gem 'better_errors', '~> 2.6'
+# A modern CSS framework based on Flexbox
+gem 'bulma-rails', '~> 0.8.0'
+# Forms made easy!
+gem 'simple_form', '~> 5.0', '>= 5.0.2'
+
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 
@@ -41,4 +48,4 @@ group :development do
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
-gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+# gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
