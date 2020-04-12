@@ -20,8 +20,6 @@ gem 'jbuilder', '~> 2.7'
 # Use Active Model has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
-# Provides a better error page for Rails and other Rack apps.
-gem 'better_errors', '~> 2.6'
 # A modern CSS framework based on Flexbox
 gem 'bulma-rails', '~> 0.8.0'
 # Forms made easy!
@@ -45,6 +43,8 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
+  # Provides a better error page for Rails and other Rack apps.
+  gem 'better_errors', '~> 2.6'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
